@@ -1,169 +1,169 @@
-Product Type,Recalling Firm State,Count
-Biologics,California,11
-Biologics,Texas,8
-Biologics,Georgia,7
-Biologics,Pennsylvania,7
-Biologics,Florida,6
-Biologics,Illinois,5
-Biologics,New York,5
-Biologics,Ohio,5
-Biologics,Arizona,4
-Biologics,Massachusetts,4
-Biologics,Missouri,4
-Biologics,North Carolina,4
-Biologics,Tennessee,4
-Biologics,Virginia,4
+Product Type,Recalling Firm State,Company Count
 Biologics,Alabama,3
-Biologics,Washington,3
-Biologics,Wisconsin,3
+Biologics,Alaska,1
+Biologics,Arizona,4
+Biologics,California,11
 Biologics,Colorado,2
+Biologics,Connecticut,1
+Biologics,Florida,4
+Biologics,Georgia,7
+Biologics,Hawaii,1
+Biologics,Idaho,1
+Biologics,Illinois,5
 Biologics,Indiana,2
 Biologics,Iowa,2
 Biologics,Kentucky,2
 Biologics,Maryland,2
-Biologics,Minnesota,2
-Biologics,New Jersey,2
-Biologics,Oklahoma,2
-Biologics,Utah,2
-Biologics,Alaska,1
-Biologics,Connecticut,1
-Biologics,Hawaii,1
-Biologics,Idaho,1
+Biologics,Massachusetts,4
 Biologics,Michigan,1
+Biologics,Minnesota,2
 Biologics,Mississippi,1
+Biologics,Missouri,4
 Biologics,Montana,1
 Biologics,Nebraska,1
+Biologics,New Jersey,2
 Biologics,New Mexico,1
+Biologics,New York,5
+Biologics,North Carolina,4
+Biologics,Ohio,5
+Biologics,Oklahoma,2
+Biologics,Pennsylvania,7
 Biologics,South Carolina,1
+Biologics,Tennessee,4
+Biologics,Texas,8
+Biologics,Utah,2
 Biologics,Vermont,1
+Biologics,Virginia,4
+Biologics,Washington,1
+Biologics,Wisconsin,3
 Biologics,Wyoming,1
-Devices,California,60
-Devices,Massachusetts,30
-Devices,New Jersey,21
-Devices,Minnesota,17
-Devices,Indiana,13
-Devices,Pennsylvania,13
-Devices,Texas,12
-Devices,Colorado,11
+Devices,Alabama,1
+Devices,Arizona,8
+Devices,California,59
+Devices,Colorado,10
+Devices,Connecticut,5
+Devices,Delaware,2
+Devices,Florida,8
 Devices,Georgia,10
 Devices,Illinois,10
-Devices,New York,10
-Devices,Ohio,10
-Devices,Arizona,9
-Devices,Florida,8
-Devices,Utah,8
-Devices,Wisconsin,8
-Devices,North Carolina,7
-Devices,Washington,7
-Devices,Connecticut,5
-Devices,Maryland,5
-Devices,Missouri,5
-Devices,Tennessee,5
-Devices,Michigan,4
-Devices,New Hampshire,4
-Devices,Delaware,2
-Devices,Maine,2
-Devices,Oregon,2
-Devices,Virginia,2
-Devices,Alabama,1
+Devices,Indiana,13
 Devices,Iowa,1
 Devices,Kansas,1
+Devices,Maine,2
+Devices,Maryland,5
+Devices,Massachusetts,30
+Devices,Michigan,4
+Devices,Minnesota,17
+Devices,Missouri,5
 Devices,Montana,1
 Devices,Nebraska,1
+Devices,New Hampshire,4
+Devices,New Jersey,19
+Devices,New York,10
+Devices,North Carolina,7
+Devices,Ohio,10
+Devices,Oregon,2
+Devices,Pennsylvania,12
 Devices,South Dakota,1
+Devices,Tennessee,5
+Devices,Texas,12
+Devices,Utah,8
+Devices,Virginia,2
+Devices,Washington,7
 Devices,West Virginia,1
-Drugs,New Jersey,21
-Drugs,New York,20
-Drugs,California,19
-Drugs,Florida,10
-Drugs,Texas,10
-Drugs,Georgia,6
-Drugs,North Carolina,6
-Drugs,Illinois,5
-Drugs,Missouri,5
-Drugs,Massachusetts,4
-Drugs,Pennsylvania,4
-Drugs,Tennessee,3
+Devices,Wisconsin,8
 Drugs,Arizona,2
+Drugs,California,19
 Drugs,Colorado,2
 Drugs,Connecticut,2
+Drugs,Florida,10
+Drugs,Georgia,6
+Drugs,Illinois,5
 Drugs,Indiana,2
-Drugs,South Carolina,2
-Drugs,Virginia,2
 Drugs,Kentucky,1
 Drugs,Maryland,1
+Drugs,Massachusetts,4
 Drugs,Michigan,1
 Drugs,Minnesota,1
+Drugs,Missouri,5
 Drugs,Nebraska,1
 Drugs,Nevada,1
+Drugs,New Jersey,21
+Drugs,New York,20
+Drugs,North Carolina,6
 Drugs,Ohio,1
 Drugs,Oklahoma,1
 Drugs,Oregon,1
+Drugs,Pennsylvania,4
 Drugs,Rhode Island,1
+Drugs,South Carolina,2
+Drugs,Tennessee,3
+Drugs,Texas,10
+Drugs,Virginia,2
 Drugs,West Virginia,1
-Food/Cosmetics,California,75
-Food/Cosmetics,New York,36
-Food/Cosmetics,Florida,28
-Food/Cosmetics,New Jersey,24
-Food/Cosmetics,Texas,23
-Food/Cosmetics,Ohio,18
-Food/Cosmetics,Illinois,17
-Food/Cosmetics,Oregon,16
-Food/Cosmetics,Pennsylvania,14
-Food/Cosmetics,Wisconsin,12
-Food/Cosmetics,Michigan,11
-Food/Cosmetics,Massachusetts,10
-Food/Cosmetics,Washington,10
-Food/Cosmetics,North Carolina,9
-Food/Cosmetics,Connecticut,8
-Food/Cosmetics,Iowa,8
-Food/Cosmetics,Maryland,8
-Food/Cosmetics,Colorado,7
-Food/Cosmetics,Minnesota,7
+Food/Cosmetics,Alabama,2
 Food/Cosmetics,Arizona,6
-Food/Cosmetics,Missouri,5
-Food/Cosmetics,Puerto Rico,5
-Food/Cosmetics,Tennessee,5
-Food/Cosmetics,Utah,5
 Food/Cosmetics,Arkansas,4
+Food/Cosmetics,California,75
+Food/Cosmetics,Colorado,7
+Food/Cosmetics,Connecticut,8
+Food/Cosmetics,Florida,27
+Food/Cosmetics,Georgia,3
 Food/Cosmetics,Hawaii,4
 Food/Cosmetics,Idaho,4
-Food/Cosmetics,Kansas,4
-Food/Cosmetics,Georgia,3
-Food/Cosmetics,Virginia,3
-Food/Cosmetics,Alabama,2
+Food/Cosmetics,Illinois,17
 Food/Cosmetics,Indiana,2
+Food/Cosmetics,Iowa,8
+Food/Cosmetics,Kansas,4
 Food/Cosmetics,Kentucky,2
-Food/Cosmetics,Nebraska,2
-Food/Cosmetics,Vermont,2
 Food/Cosmetics,Maine,1
+Food/Cosmetics,Maryland,8
+Food/Cosmetics,Massachusetts,10
+Food/Cosmetics,Michigan,11
+Food/Cosmetics,Minnesota,7
 Food/Cosmetics,Mississippi,1
+Food/Cosmetics,Missouri,5
+Food/Cosmetics,Nebraska,2
 Food/Cosmetics,Nevada,1
+Food/Cosmetics,New Jersey,24
 Food/Cosmetics,New Mexico,1
+Food/Cosmetics,New York,36
+Food/Cosmetics,North Carolina,9
+Food/Cosmetics,Ohio,18
 Food/Cosmetics,Oklahoma,1
+Food/Cosmetics,Oregon,16
+Food/Cosmetics,Pennsylvania,14
+Food/Cosmetics,Puerto Rico,5
 Food/Cosmetics,Rhode Island,1
 Food/Cosmetics,South Carolina,1
 Food/Cosmetics,South Dakota,1
+Food/Cosmetics,Tennessee,5
+Food/Cosmetics,Texas,23
+Food/Cosmetics,Utah,5
+Food/Cosmetics,Vermont,2
+Food/Cosmetics,Virginia,3
+Food/Cosmetics,Washington,10
 Food/Cosmetics,West Virginia,1
+Food/Cosmetics,Wisconsin,12
 Tobacco,Tennessee,1
-Veterinary,Kansas,5
-Veterinary,Texas,4
-Veterinary,California,2
-Veterinary,Minnesota,2
-Veterinary,North Carolina,2
-Veterinary,Pennsylvania,2
-Veterinary,Tennessee,2
-Veterinary,Wisconsin,2
 Veterinary,Alabama,1
+Veterinary,California,2
 Veterinary,Colorado,1
 Veterinary,Idaho,1
 Veterinary,Illinois,1
 Veterinary,Indiana,1
 Veterinary,Iowa,1
+Veterinary,Kansas,5
 Veterinary,Kentucky,1
 Veterinary,Maryland,1
+Veterinary,Minnesota,2
 Veterinary,Missouri,1
 Veterinary,Nebraska,1
 Veterinary,New Jersey,1
+Veterinary,North Carolina,2
 Veterinary,Ohio,1
+Veterinary,Pennsylvania,2
+Veterinary,Tennessee,2
+Veterinary,Texas,4
 Veterinary,Virginia,1
+Veterinary,Wisconsin,2
