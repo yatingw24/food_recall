@@ -96,6 +96,8 @@
             background: #fff880;
         }
 
+        
+
         /* margin on mobile */
         @media (max-width: 640px) {
             body {
@@ -121,7 +123,7 @@
             <p class="subhead">Here is the subhead or additional content you want to add in</p>
         </div>
         <div class="byline">
-            <p>By <a href="https://jonathansoma.com">Jonathan Soma</a></p>
+            <p>By <a href="https://github.io/yatin">Yating Wang</a></p>
         </div>
         <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio
             cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor
@@ -137,6 +139,51 @@
         <p>You will need <code><a href="scrolly-styles.css">scrolly-styles.css</a></code> for the page to work for you. Note that the steps themselves are below the ai2html content.
         </p>
         <p>To know the details of how this works, check out <a href="https://www.youtube.com/watch?v=bJKLmEBu2sE&list=PLewNEVDy7gq3MSrrO3eMEW8PhGMEVh2X2&index=7">this video</a> and <a href="https://www.youtube.com/watch?v=hZ1g7d5BPYQ&list=PLewNEVDy7gq3MSrrO3eMEW8PhGMEVh2X2&index=9">this video</a>.</p>
+
+        <style>
+            .column-container {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            }
+
+            .column-container > div {
+            flex: 1; /* This makes each div take equal space */
+            padding: 20px;
+            margin: 10px;
+            }
+
+            .column-container iframe {
+            width: 100%; /* Make iframe fill its parent div */
+            height: 400px; /* Set a fixed height or you can use 100% if parent has height */
+            border: none; /* Optional: removes the default iframe border */
+            }
+
+            @media (max-width: 900px) {
+            .column-container {
+                flex-direction: column; /* Stack columns vertically */
+            }
+            
+            .column-container > div {
+                margin: 10px 0; /* Adjust margins for vertical layout */
+            }
+        }
+        </style>
+
+        <div class="full-width">
+            <div class="column-container">
+                <div>
+                        <iframe title="The biggest pumpkins, by state" aria-label="Bar Chart" id="datawrapper-chart-MLQxw" src="https://datawrapper.dwcdn.net/MLQxw/3/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="757" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+                        </script>
+                </div>
+                <div>
+                        <iframe title="This is a bad graph about hills in Cornwall" aria-label="Range Plot" id="datawrapper-chart-7gJdX" src="https://datawrapper.dwcdn.net/7gJdX/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="800" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+                        </script>
+                </div>
+            </div>
+        </div>
+
+
     </div>
     <section id="scrolly-ai2html" class="scrolly-container">
         <div class="sticky-thing">
