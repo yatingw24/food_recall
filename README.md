@@ -4,9 +4,7 @@ Trump's recent decision to slash funding to research institutions and health sys
 Here is the shortcut to my [article:](https://yatingw24.github.io/food_recall)
 
 A great thank to my data sources:
-- [PhD Stipends](https://www.phdstipends.com/) for sharing the financial information about PhD students in many disciplines at universities across the US in different academic years.
-- [A statistical Report on English PhD Stipends in the US](https://profession.mla.org/english-phd-stipends-in-the-united-states-statistical-report/) for collecting data on stipends for PhD candidates in English conducted between summer 2021 and spring 2022.
-- [National Center for Scince and Engineering Statistics](https://ncses.nsf.gov/surveys/doctorate-recipients/2021#data) for curating a variety of tables on information about PhD students' enrollment, debt, demographics, post-grad outcomes, and etc. 
+- [FDA Food Recalls](https://datadashboard.fda.gov/ora/cd/recalls.htm) for its weekly updates on recalls of all classes and types of products.
 
 
 ## Key Takeaways 
@@ -25,6 +23,7 @@ A PhD student's stipend is not necessarily tied to their year in the program;
 ## What I Did:
 ### Tech Stack sed:
  - `python - pandas`
+ - `ai2html`
  - `R`
  - `regex`
  - `csv`
