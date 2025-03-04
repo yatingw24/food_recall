@@ -170,17 +170,16 @@
   <rect class="st6" x="367.3" y="334.9" width="27.9" height="27.9"/>
   <rect class="st6" x="88.4" y="365.9" width="27.9" height="27.9"/>
   <rect class="st0" width="576" height="432"/>
-  <text class="st1" transform="translate(427 182.9)"><tspan x="0" y="0">Product Type</tspan></text>
-  <rect class="st8" x="427.1" y="189.8" width="17" height="17"/>
+  <rect class="st8" x="427.1" y="240.8" width="17" height="17"/>
   <rect class="st4" x="427.1" y="207.1" width="17" height="17"/>
   <rect class="st7" x="427.1" y="224.3" width="17" height="17"/>
-  <rect class="st5" x="427.1" y="241.6" width="17" height="17"/>
-  <rect class="st6" x="427.1" y="258.9" width="17" height="17"/>
-  <text class="st3" transform="translate(449.7 201.4)"><tspan x="0" y="0">Biologics</tspan></text>
+  <rect class="st5" x="427.1" y="189.6" width="17" height="17"/>
+  <rect class="st6" x="427.1" y="257.9" width="17" height="17"/>
+  <text class="st3" transform="translate(449.7 252.4)"><tspan x="0" y="0">Biologics</tspan></text>
   <text class="st3" transform="translate(449.7 218.7)"><tspan x="0" y="0">Devices</tspan></text>
   <text class="st3" transform="translate(449.7 236)"><tspan x="0" y="0">Drugs</tspan></text>
-  <text class="st3" transform="translate(449.7 253.3)"><tspan x="0" y="0">Food/Cosmetics</tspan></text>
-  <text class="st3" transform="translate(449.7 270.5)"><tspan class="st9" x="0" y="0">Veteri</tspan><tspan x="37.2" y="0">-</tspan></text>
+  <text class="st3" transform="translate(449.7 200.3)"><tspan x="0" y="0">Food/Cosmetics</tspan></text>
+  <text class="st3" transform="translate(449.7 269.5)"><tspan class="st9" x="0" y="0">Veteri</tspan><tspan x="37.2" y="0">-</tspan></text>
   <text class="st1" transform="translate(90.8 49)"><tspan x="0" y="0">Each tile represents 10 recall cases</tspan></text>
   <text class="st2" transform="translate(101.8 14.9)"><tspan x="0" y="0">FDA</tspan><tspan class="st11" x="26.4" y="0"> </tspan><tspan x="30" y="0">Recalls</tspan><tspan class="st11" x="73.3" y="0"> </tspan><tspan x="77" y="0">by</tspan><tspan class="st11" x="90.9" y="0"> </tspan><tspan x="94.5" y="0">Product</tspan><tspan class="st10" x="140" y="0"> </tspan><tspan x="143.7" y="0">Type</tspan><tspan class="st11" x="173" y="0"> </tspan><tspan x="176.6" y="0">(2024)</tspan></text>
 </svg>
