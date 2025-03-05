@@ -107,8 +107,11 @@
             .column-container {
             display: flex;
             flex-direction: row;
-            width: 100%;
+            align-items: center; /* Aligns items to the center horizontally */
+            justify-content: center; /* Optional: Centers both divs in the parent */
+            gap: 20px; /* Adds space between them */
             }
+
 
             .column-container > div {
             flex: 1; /* This makes each div take equal space */
