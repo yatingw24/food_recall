@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 645.3 288">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 645.3 288">
   <!-- Generator: Adobe Illustrator 29.3.1, SVG Export Plug-In . SVG Version: 2.1.0 Build 151)  -->
   <defs>
     <style>
@@ -8,80 +8,90 @@
       }
 
       .st1 {
+        font-family: MyriadPro-Regular, 'Myriad Pro';
+        font-size: 15px;
+      }
+
+      .st2 {
         fill: #ded;
       }
 
-      .st1, .st2 {
+      .st2, .st3 {
         stroke: #fff;
         stroke-miterlimit: 10;
         stroke-width: .2px;
       }
 
-      .st3 {
+      .st4 {
         font-family: ArialMT, Arial;
         font-size: 15.5px;
       }
 
-      .st3, .st4 {
+      .st4, .st5 {
         isolation: isolate;
       }
 
-      .st2 {
+      .st3 {
         fill: #66c2a5;
       }
 
-      .st4 {
+      .st5 {
         font-family: Arial-BoldMT, Arial;
         font-size: 23.2px;
         font-weight: 700;
       }
     </style>
   </defs>
-  <rect class="st0" x="6.6" width="744" height="558"/>
-  <rect class="st0" x="6.6" width="744" height="558"/>
-  <rect class="st0" x="71.3" width="614.7" height="558"/>
-  <rect class="st0" x="6.6" width="744" height="558"/>
-  <rect class="st2" x="107.9" y="83.1" width="36.8" height="36.8"/>
-  <rect class="st2" x="148.8" y="83.1" width="36.8" height="36.8"/>
-  <rect class="st2" x="189.8" y="83.1" width="36.8" height="36.8"/>
-  <rect class="st2" x="230.7" y="83.1" width="36.8" height="36.8"/>
-  <rect class="st2" x="271.6" y="83.1" width="36.8" height="36.8"/>
-  <rect class="st2" x="312.5" y="83.1" width="36.8" height="36.8"/>
-  <rect class="st2" x="353.4" y="83.1" width="36.8" height="36.8"/>
-  <rect class="st2" x="394.4" y="83.1" width="36.8" height="36.8"/>
-  <rect class="st2" x="435.3" y="83.1" width="36.8" height="36.8"/>
-  <rect class="st2" x="476.2" y="83.1" width="36.8" height="36.8"/>
-  <rect class="st2" x="107.9" y="124" width="36.8" height="36.8"/>
-  <rect class="st2" x="148.8" y="124" width="36.8" height="36.8"/>
-  <rect class="st2" x="189.8" y="124" width="36.8" height="36.8"/>
-  <rect class="st2" x="230.7" y="124" width="36.8" height="36.8"/>
-  <rect class="st2" x="271.6" y="124" width="36.8" height="36.8"/>
-  <rect class="st2" x="312.5" y="124" width="36.8" height="36.8"/>
-  <rect class="st1" x="353.4" y="124" width="36.8" height="36.8"/>
-  <rect class="st1" x="394.4" y="124" width="36.8" height="36.8"/>
-  <rect class="st1" x="435.3" y="124" width="36.8" height="36.8"/>
-  <rect class="st1" x="476.2" y="124" width="36.8" height="36.8"/>
-  <rect class="st1" x="107.9" y="164.9" width="36.8" height="36.8"/>
-  <rect class="st1" x="148.8" y="164.9" width="36.8" height="36.8"/>
-  <rect class="st1" x="189.8" y="164.9" width="36.8" height="36.8"/>
-  <rect class="st1" x="230.7" y="164.9" width="36.8" height="36.8"/>
-  <rect class="st1" x="271.6" y="164.9" width="36.8" height="36.8"/>
-  <rect class="st1" x="312.5" y="164.9" width="36.8" height="36.8"/>
-  <rect class="st1" x="353.4" y="164.9" width="36.8" height="36.8"/>
-  <rect class="st1" x="394.4" y="164.9" width="36.8" height="36.8"/>
-  <rect class="st1" x="435.3" y="164.9" width="36.8" height="36.8"/>
-  <rect class="st1" x="476.2" y="164.9" width="36.8" height="36.8"/>
-  <rect class="st1" x="107.9" y="205.8" width="36.8" height="36.8"/>
-  <rect class="st1" x="148.8" y="205.8" width="36.8" height="36.8"/>
-  <rect class="st1" x="189.8" y="205.8" width="36.8" height="36.8"/>
-  <rect class="st1" x="230.7" y="205.8" width="36.8" height="36.8"/>
-  <rect class="st1" x="271.6" y="205.8" width="36.8" height="36.8"/>
-  <rect class="st1" x="312.5" y="205.8" width="36.8" height="36.8"/>
-  <rect class="st1" x="353.4" y="205.8" width="36.8" height="36.8"/>
-  <rect class="st1" x="394.4" y="205.8" width="36.8" height="36.8"/>
-  <rect class="st1" x="435.3" y="205.8" width="36.8" height="36.8"/>
-  <rect class="st1" x="476.2" y="205.8" width="36.8" height="36.8"/>
-  <rect class="st0" x="-22.7" width="744" height="290.6"/>
-  <text class="st3" transform="translate(107.9 66)"><tspan x="0" y="0">Each tile represents 10 recall cases</tspan></text>
-  <text class="st4" transform="translate(107.9 35.5)"><tspan x="0" y="0" xml:space="preserve">39 Percent of Food Recalls are Class I  </tspan></text>
+  <g id="Layer_1">
+    <rect class="st0" x="6.6" width="744" height="558"/>
+    <rect class="st0" x="6.6" width="744" height="558"/>
+    <rect class="st0" x="71.3" width="614.7" height="558"/>
+    <rect class="st0" x="6.6" width="744" height="558"/>
+    <rect class="st3" x="107.9" y="97.1" width="36.8" height="36.8"/>
+    <rect class="st3" x="148.8" y="97.1" width="36.8" height="36.8"/>
+    <rect class="st3" x="189.8" y="97.1" width="36.8" height="36.8"/>
+    <rect class="st3" x="230.7" y="97.1" width="36.8" height="36.8"/>
+    <rect class="st3" x="271.6" y="97.1" width="36.8" height="36.8"/>
+    <rect class="st3" x="312.5" y="97.1" width="36.8" height="36.8"/>
+    <rect class="st3" x="353.4" y="97.1" width="36.8" height="36.8"/>
+    <rect class="st3" x="394.4" y="97.1" width="36.8" height="36.8"/>
+    <rect class="st3" x="435.3" y="97.1" width="36.8" height="36.8"/>
+    <rect class="st3" x="476.2" y="97.1" width="36.8" height="36.8"/>
+    <rect class="st3" x="107.9" y="138" width="36.8" height="36.8"/>
+    <rect class="st3" x="148.8" y="138" width="36.8" height="36.8"/>
+    <rect class="st3" x="189.8" y="138" width="36.8" height="36.8"/>
+    <rect class="st3" x="230.7" y="138" width="36.8" height="36.8"/>
+    <rect class="st3" x="271.6" y="138" width="36.8" height="36.8"/>
+    <rect class="st3" x="312.5" y="138" width="36.8" height="36.8"/>
+    <rect class="st2" x="353.4" y="138" width="36.8" height="36.8"/>
+    <rect class="st2" x="394.4" y="138" width="36.8" height="36.8"/>
+    <rect class="st2" x="435.3" y="138" width="36.8" height="36.8"/>
+    <rect class="st2" x="476.2" y="138" width="36.8" height="36.8"/>
+    <rect class="st2" x="107.9" y="178.9" width="36.8" height="36.8"/>
+    <rect class="st2" x="148.8" y="178.9" width="36.8" height="36.8"/>
+    <rect class="st2" x="189.8" y="178.9" width="36.8" height="36.8"/>
+    <rect class="st2" x="230.7" y="178.9" width="36.8" height="36.8"/>
+    <rect class="st2" x="271.6" y="178.9" width="36.8" height="36.8"/>
+    <rect class="st2" x="312.5" y="178.9" width="36.8" height="36.8"/>
+    <rect class="st2" x="353.4" y="178.9" width="36.8" height="36.8"/>
+    <rect class="st2" x="394.4" y="178.9" width="36.8" height="36.8"/>
+    <rect class="st2" x="435.3" y="178.9" width="36.8" height="36.8"/>
+    <rect class="st2" x="476.2" y="178.9" width="36.8" height="36.8"/>
+    <rect class="st2" x="107.9" y="219.8" width="36.8" height="36.8"/>
+    <rect class="st2" x="148.8" y="219.8" width="36.8" height="36.8"/>
+    <rect class="st2" x="189.8" y="219.8" width="36.8" height="36.8"/>
+    <rect class="st2" x="230.7" y="219.8" width="36.8" height="36.8"/>
+    <rect class="st2" x="271.6" y="219.8" width="36.8" height="36.8"/>
+    <rect class="st2" x="312.5" y="219.8" width="36.8" height="36.8"/>
+    <rect class="st2" x="353.4" y="219.8" width="36.8" height="36.8"/>
+    <rect class="st2" x="394.4" y="219.8" width="36.8" height="36.8"/>
+    <rect class="st2" x="435.3" y="219.8" width="36.8" height="36.8"/>
+    <rect class="st2" x="476.2" y="219.8" width="36.8" height="36.8"/>
+    <rect class="st0" x="-22.7" width="744" height="290.6"/>
+    <text class="st4" transform="translate(107.9 66)"><tspan x="0" y="0">Each tile represents 10 recall cases</tspan></text>
+    <text class="st5" transform="translate(107.9 35.5)"><tspan x="0" y="0" xml:space="preserve">39 Percent of Food Recalls are Class I  </tspan></text>
+  </g>
+  <g id="ai2html-settings">
+    <text id="ai2html-settings1" data-name="ai2html-settings" class="st1" transform="translate(-450 10.6)"><tspan x="0" y="0">ai2html-settings</tspan><tspan x="0" y="19">settings_version: 0.121.1</tspan><tspan x="0" y="38">image_format: auto</tspan><tspan x="0" y="57">responsiveness: fixed</tspan><tspan x="0" y="76">include_resizer_script: false</tspan><tspan x="0" y="95">use_lazy_loader: false</tspan><tspan x="0" y="114">output: one-file</tspan><tspan x="0" y="133">html_output_path: ai2html-output/</tspan><tspan x="0" y="152">image_output_path: ai2html-output/</tspan><tspan x="0" y="171">image_source_path: </tspan><tspan x="0" y="190">local_preview_template: </tspan><tspan x="0" y="209">png_number_of_colors: 128</tspan><tspan x="0" y="228">jpg_quality: 60</tspan><tspan x="0" y="247">headline: </tspan><tspan x="0" y="266">leadin: </tspan><tspan x="0" y="285">notes: </tspan><tspan x="0" y="304">sources: </tspan><tspan x="0" y="323">credit: </tspan></text>
+  </g>
 </svg>
