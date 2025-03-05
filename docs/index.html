@@ -89,6 +89,29 @@
         }
 
     </style>
+    <style>
+        #g-text-laptop, #g-text-medium, #g-text-mobile {
+            display: none;
+        }
+
+        @media (max-width: 490px) {
+            #g-text-mobile {
+                display: block;
+            }
+        }
+
+        @media (min-width: 490px) and (max-width: 620px) {
+            #g-text-laptop {
+                display: block;
+            }
+        }
+
+        @media (min-width: 620px) {
+            #g-text-medium {
+                display: block;
+            }
+        }
+    </style>
 
     </head>
   <body>
