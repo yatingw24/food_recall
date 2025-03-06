@@ -48,7 +48,7 @@ While USDA offers the recall and public health alert data in the API format, it 
 ### Data Vizs & Graphics
 #### 1st - A Tile Chart showing the high proportion of food recalls compared to other product types
 1. Used `geom_tile()` to  represent the total number of recalls by product types. Here, I combined product types except Food/Cosmetics together to highlight the overwhelming number of food recall cases. 
-![Chart](static_imgs/boxplot.png)
+![Chart](docs/tile.png)
 2. Exported it as a `.tile.svg' file to be ready for customization in Illustrator. 
 3. Cleaned labels and made Annotation manually in Illustrator to ensure the readibility.
 
