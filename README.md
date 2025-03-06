@@ -53,24 +53,18 @@ While USDA offers the recall and public health alert data in the API format, it 
 
 #### 2nd - A Horizontal Bar Chart Comparing the Frequency of Reasons for Food Recalls
 1. Loaded the data, `debt.csv` and went straight to making ggplot using `geom_bar`.
-2. Given that I'd like to represent the percentage, I need to have the bar background go to 100%. As a result, I required `library(scales)` and set my my x-axis' scale from 0 to 1.
-3. Colored each major accordingly to the disciple each belongs to and made sure the title matches the color-coding as well. 
-4. a breakdown of chart elements:
-- x-axis: the percentage of debted students;
-- y-axis: The major.
-5. In case you are curious why I chose percentage as the scale - it would be unfair to represent the number here since the amount of enrollments in STEM almost tripled over that of Non-Science majors.
 
 
 
 ### Skills Newly Acquired
-1. Data analysis is not only done in Python/Pandas, but also in R using a variety of graphing functions such as `geom_bar()`, `geom_treemap()`.
-2. Widened both **my data sources** AND **my choices of chart types** to better convey the message with the most effective type.
+1. ai2html 
+2. Illustrator: 
 3. Practiced advanced data analysis in R such as convertion of characters to numerics, changing fonts, effective annotations, etc. 
 
 ## Limitations & Things I'd Like to Improve
-1. This is a data-driven project done with a limited amount of time - I would interview PhD candidates from public universities to understand their stipend and how they support themselves financially;
-2. While this analysis compares stipends to the U.S. median cost of living ($3,851/month in 2024), the actual living costs vary widely by location. Future work could involve curating a new dataset on regional stipend differences and visualizing geographic disparities in financial support for PhD students. 
-3. While I applied a stipend range filter (15,000–90,000), I could have used more systematic outlier detection methods, such as boxplots or IQR filtering to assess the impact of extreme values.
+1. An analysis of food recalls by region/state or whether there is a correlation between the number of food films and food recalls in a certain area could add an extra layer to my story.
+2. More examples of the seriousness of food recall by type could be further provided to give a detailed look into how that affect people's health. 
+3. At this point, the project provides a thumbnail of food recalls in 2024. It could go back to previous years and make comparisons, or dive into other products types as well. 
  
 
  
