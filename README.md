@@ -1,5 +1,5 @@
 # Unspecified Labeling led the Most FDA Food Recalls in 2024
-Food recall has never been this violent with labeling issues leading Class I food recalls, data from the US Food and Drug Administration reveals. **long before this funding cut**. 
+A responsive data-driven visualization project, supported by a 500-word narrative, informative charts and ai2html, about leading reasons of FDA food recalls in the past year. 
 
 Here is the shortcut to my [article:](https://yatingw24.github.io/food_recall)
 
@@ -8,7 +8,7 @@ A great thank to my data sources:
 
 
 ## Key Takeaways 
-Except for Business PhDs, stipends in other disciplines fall below the 2024 U.S. median cost of living ($3,851/month) and are quickly drained by basic expenses;
+Food recall has never been this violent with **labeling issues** leading Class I food recalls, data from the US Food and Drug Administration reveals. 
 
 Students in Humanities, Arts and Social Sciences can hardly earn a stipend that would catch up with candidates in STEM and Business majors for almost a decade;
 
