@@ -10,27 +10,26 @@ A great thank to my data sources:
 ## Key Takeaways 
 Food recall has never been this violent with **labeling issues** leading Class I food recalls, data from the US Food and Drug Administration reveals. 
 
-Students in Humanities, Arts and Social Sciences can hardly earn a stipend that would catch up with candidates in STEM and Business majors for almost a decade;
+Undeclared gluten ingredients, such as soy or wheat are found to be the most frequent labeling errors, while 28 percent of food recalls due to a lack of clarity of dairy ingredients such as milk and butter.
 
-A PhD student's stipend is not necessarily tied to their year in the program;
-
-## Questions That This Article Would Answer:
-1. What are the reason(s) students in non-STEM disciplines receive fewer stipend? Has this been a trend for a long time before union strikes and even before Covid?
-2. What does a Humanity PhD candidate's budget looks like after the deduction of living cost? 
-3. Is there a decrease/increase in doctoral enrollments in disciplines such as Humanities, Arts and Social Science in recent years?
-4. Are PhD students more or less financially struggling depending on which discipline he chooses?
 
 ## What I Did:
 ### Tech Stack sed:
  - `python - pandas`
  - `ai2html`
  - `R`
+ - `Illustrator`
  - `regex`
  - `csv`
 
 ### A Break Down of Files:
- - `Analysis.ipynb`: the jupyter notebook where I did my majority of data cleaning and analysis.
-  - `ggplot_dist.ipynb`: the jupyter notebook where I used R console to generate charts and plots. 
+Folders:
+- `ai2html-output`:
+
+Inidvidual files:
+ - `food_recall.xlsx`: the original data file which contains weekly update by FDA on recalls.
+ - `tile_graph.ipynb`: the jupyter notebook using R console to generate the tile chart.
+  - `Analysis.ipynb`: the jupyter notebook where I used R console to generate charts and plots. 
  - `cleaned_output.csv`: the curated dataset after my categorization of majors into four disciplines - Business, Science, Social Science and Humanities. 
  - `debt.csv`: a breakdown of percentage of debt by discipline.
   - `treemap.csv`: a spreadsheet which eventually presented through a treemap that shows the total number of doctoral enrollments in 2024 by discipline. 
