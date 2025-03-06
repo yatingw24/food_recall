@@ -44,20 +44,14 @@ While USDA offers the recall and public health alert data in the API format, it 
 3. Within the category of 'Labeling Issue', I used regular expression to further differentiate what speicifc labeling error is.
 
 
-
-### Making Ggplot!
-#### 1st - A Line Chart showing the Growing Stipend Gap Between Disciplines 
-1. Converted the `cleaned_output.csv` into a dataframe and make multiple boxplots to the distribution of **median stipend** by discipline and by time. As the statistical summary revealed, each discipline's stipend is more or less normally distributed. Either median and mean could be a fair representation of the overall stipend. 
+### Data Vizs & Graphics
+#### 1st - A Tile Chart showing the high proportion of food recalls compared to other product types
+1. Used `geom_tile()` to  represent the total number of recalls by product types. Here, I combined product types except Food/Cosmetics together to highlight the overwhelming number of food recall cases. 
 ![Chart](static_imgs/boxplot.png)
-2. Named a new dataframe called `df_median` grouped by `Academic Year` and `Field`. `summarize()` is used to ensure all data entries are median stipend for a specific major in a specific academic year.
-3. Made **a multi-line chart** using `geom_rect`, `geom_line` and `geom_point`. 
-4. A breakdown of chart elements:
-- each line: each line representing a discipline: Business, Social Science, STEM, and Humanities;
-- x-axis: the academic year;
-- y-axis: median stipend in $;
-- highlighted area: academic years affected by the pandemic.
+2. Exported it as a `.tile.svg' file to be ready for customization in Illustrator. 
 
-#### 2nd - A Vertical Bar Chart Comparing the Percentage of Debted Students in Each Major
+
+#### 2nd - A Horizontal Bar Chart Comparing the Frequency of Reasons for Food Recalls
 1. Loaded the data, `debt.csv` and went straight to making ggplot using `geom_bar`.
 2. Given that I'd like to represent the percentage, I need to have the bar background go to 100%. As a result, I required `library(scales)` and set my my x-axis' scale from 0 to 1.
 3. Colored each major accordingly to the disciple each belongs to and made sure the title matches the color-coding as well. 
@@ -66,16 +60,7 @@ While USDA offers the recall and public health alert data in the API format, it 
 - y-axis: The major.
 5. In case you are curious why I chose percentage as the scale - it would be unfair to represent the number here since the amount of enrollments in STEM almost tripled over that of Non-Science majors.
 
-#### 3rd - A Treemap About the Amount of PhD Candidates by Discipline
-1. Loaded the data, `cleaned_output.csv`, and required `library(treemapify)` to enable the treemap graphing function.
-2. The area is a straightfoward representation of how many students are enrolled in which discipline. 
-3. The purpose was to learn how to make a treemap in R, but it was less revelatory if it is put in the story, as I later realized. As a result, it served as an visual context, allowing readers to understand the proportion of PhD candidates in each discipline.
 
-#### 4th - Two Density Plots for Showing the Financial Support by Types of Institutions
-1. In Prof Weiskott's research, he made two separate spreadsheets in order to reveal the difference in stipend offered to English PhD at public universities and private universities. 
-2. Since stipends are a continuous variable, using a distribution plot (density plot) is more effective for visualizing variations in financial support across institutions. This allows for an easier comparison of stipend ranges, central tendencies, and overall distribution patterns between public and private universities.
-3. Distributions of English Stipend in public and private universities are plotted with `geom_density` and `facet_wrap` to show them at once. 
-4. Last, I pointed out the median with dotted lines to directly visualize the gap between stipend offered by public and private institutions. 
 
 ### Skills Newly Acquired
 1. Data analysis is not only done in Python/Pandas, but also in R using a variety of graphing functions such as `geom_bar()`, `geom_treemap()`.
