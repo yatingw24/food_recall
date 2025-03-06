@@ -42,7 +42,7 @@ While USDA offers the recall and public health alert data in the API format, it 
 1. By grouping data by type of product, I found that food, compared to other products such as drugs or biologics, composed 40 percent of recalls. 
 2. Because reasons for recall are logged and curated in inconsistent structure and format, I need to extract the keyword, such as "unspecified", "undeclared", "listeria", "salmonella", "contamination", "toxic"...., and clustering them into multiple primary categories. Given that cases related to salmonella and listeria are already pervasive, they stood as two individual categories. 
 3. Within the category of 'Labeling Issue', I used regular expression to further differentiate what speicifc labeling error is, i.e. whether it is due to undeclared gluten or dairy ingredients, etc. 
-4. 
+4. In order to filter out states that are affected by food recalls, I translated state names in all variation into standard abbreivations. This part did not make it to the project due to the overall scale and relevance of the story. 
 
 
 ### Data Vizs & Graphics
@@ -50,23 +50,23 @@ While USDA offers the recall and public health alert data in the API format, it 
 1. Used `geom_tile()` to  represent the total number of recalls by product types. Here, I combined product types except Food/Cosmetics together to highlight the overwhelming number of food recall cases. 
 ![Chart](docs/tile.png)
 2. Exported it as a `.tile.svg' file to be ready for customization in Illustrator. 
-3. Cleaned labels and made Annotation manually in Illustrator to ensure the readibility.
+3. Cleaned labels and made annotation manually in Illustrator to ensure the readibility.
 
 
 #### 2nd - A Horizontal Bar Chart Comparing the Frequency of Reasons for Food Recalls
-1. Loaded the data, `debt.csv` and went straight to making ggplot using `geom_bar`.
-
+1. In Datawrapper, I chose the bar chart to reveal that almost half of food recalls are due to mislabels or undeclared labels. 
 
 
 ### Skills Newly Acquired
-1. ai2html 
-2. Illustrator: 
+1. ai2html: I learnt how to resize and use the ai2html script to make sure my graphics/vizs have a mobile-friendly and a laptop versions. 
+2. Illustrator: I practiced using the toolbar to make adjustments, add shapes and text, and refine the readibility of my data vizs.
 3. Practiced advanced data analysis in R such as convertion of characters to numerics, changing fonts, effective annotations, etc. 
 
 ## Limitations & Things I'd Like to Improve
 1. An analysis of food recalls by region/state or whether there is a correlation between the number of food films and food recalls in a certain area could add an extra layer to my story.
 2. More examples of the seriousness of food recall by type could be further provided to give a detailed look into how that affect people's health. 
 3. At this point, the project provides a thumbnail of food recalls in 2024. It could go back to previous years and make comparisons, or dive into other products types as well. 
+4. If I have more time, instead of just one week to conduct research and make data analysis, I would try to find out 
  
 
  
