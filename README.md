@@ -24,50 +24,26 @@ Undeclared gluten ingredients, such as soy or wheat are found to be the most fre
 
 ### A Break Down of Files:
 Folders:
-- `ai2html-output`:
+- `ai2html-output`: the entire output package containing the laptop and mobile versions of my charts. You will see the same tile plot in different sizes, which ensures the readibility on any device. 
+- `doc`: the index of my story page and the ai2html scripts. 
 
 Inidvidual files:
  - `food_recall.xlsx`: the original data file which contains weekly update by FDA on recalls.
  - `tile_graph.ipynb`: the jupyter notebook using R console to generate the tile chart.
-  - `Analysis.ipynb`: the jupyter notebook where I used R console to generate charts and plots. 
- - `cleaned_output.csv`: the curated dataset after my categorization of majors into four disciplines - Business, Science, Social Science and Humanities. 
- - `debt.csv`: a breakdown of percentage of debt by discipline.
-  - `treemap.csv`: a spreadsheet which eventually presented through a treemap that shows the total number of doctoral enrollments in 2024 by discipline. 
- - `phd_stipends.csv`: the original dataset that contains all financial information about nationalwide stipends across discipines. 
- - static_imgs: charts and graphics you find in my article.
-  - `privater.csv` and `public.csv`: data about English PhD stipends in public universities and private universities. 
+  - `Analysis.ipynb`: the jupyter notebook where I did my data analysis. 
+ - `specifics.csv`: the curated dataset on the frequency of each reason for food recall in 2024. 
+ - `yearly.csv`: a breakdown of total recalls by product in the past ten years. 
+  - `2024.csv`: a breakdown of recalls by type in 2024. 
+ 
+### Pre-Analysis: Why I chose FDA not USDA?
+While USDA offers the recall and public health alert data in the API format, it is no longer retrievable on individual server. 
 
-### Data Cleaning and Analysis 
-#### Part I: Understanding the Stipend Gap Between Disciplines
-1. Opened `phd_stipends.csv` and dropped all irrelevant, confusing and null entries including NA and Non-English characters 
-2. Created a new column that categorizes majors into four primary disciplines: Business, Hard-core Science, Social Science and Humanities and Arts. For Humanities, here is a sample code:
-```python
-    df.loc[df["Department"].str.contains("A|B|C|...", case=False, na=True), "Field"] = "Humanities"
-```
-3. Set the range of monthly stipend to 15,000 and 90,000 to avoid  outliers. 
-4. Describe the statistical summary of monthly stipend for each discipline. Here is a sample code:
-```python
-df[df['Field'] == "Business"]['Overall Pay'].describe()
+### Data Cleaning and Analysis
+1. By grouping data by type of product, I found that food, compared to other products such as drugs or biologics, composed 40 percent of recalls. 
+2. Because reasons for recall are logged and curated in inconsistent structure and format, I need to extract the keyword, such as "unspecified", "undeclared", "listeria", "salmonella", "contamination", "toxic"...., and clustering them into multiple primary categories. Given that cases related to salmonella and listeria are already pervasive, they stood as two individual categories. 
+3. Within the category of 'Labeling Issue', I used regular expression to further differentiate what speicifc labeling error is.
 
-```
-#### Part II: Educational Debt by Discipline
-1. Calculated the percentage of debted students for each discipline using spreadsheet mathematic formulas. 
 
-#### Part III: The Comparison Between Stipend Offered by Private and Public Universities
-1. Since I'd like to practice data analysis and cleaning in R, I loaded the data in R;
-2. Replaced all signs, such as the dollar sign $, and converted the stipend into numeric numbers using `mutate()` function in R. Here is a sample code:
-
-```python 
-public %>%
-  mutate(
-    `Amount_USD` = gsub(",", "", `Amount_USD`),   
-    `Amount_USD` = gsub("\\$", "", `Amount_USD`), 
-    `Amount_USD` = as.integer(`Amount_USD`)       
-  )
-
-  ```
-3. Combined the dataframe for private schools and public schools together using `rbind()`.
-4. Stacked density plots for each type of university to compared the gap between the median English PhD stipend. 
 
 ### Making Ggplot!
 #### 1st - A Line Chart showing the Growing Stipend Gap Between Disciplines 
