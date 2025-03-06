@@ -41,7 +41,8 @@ While USDA offers the recall and public health alert data in the API format, it 
 ### Data Cleaning and Analysis
 1. By grouping data by type of product, I found that food, compared to other products such as drugs or biologics, composed 40 percent of recalls. 
 2. Because reasons for recall are logged and curated in inconsistent structure and format, I need to extract the keyword, such as "unspecified", "undeclared", "listeria", "salmonella", "contamination", "toxic"...., and clustering them into multiple primary categories. Given that cases related to salmonella and listeria are already pervasive, they stood as two individual categories. 
-3. Within the category of 'Labeling Issue', I used regular expression to further differentiate what speicifc labeling error is.
+3. Within the category of 'Labeling Issue', I used regular expression to further differentiate what speicifc labeling error is, i.e. whether it is due to undeclared gluten or dairy ingredients, etc. 
+4. 
 
 
 ### Data Vizs & Graphics
@@ -49,6 +50,7 @@ While USDA offers the recall and public health alert data in the API format, it 
 1. Used `geom_tile()` to  represent the total number of recalls by product types. Here, I combined product types except Food/Cosmetics together to highlight the overwhelming number of food recall cases. 
 ![Chart](static_imgs/boxplot.png)
 2. Exported it as a `.tile.svg' file to be ready for customization in Illustrator. 
+3. Cleaned labels and made Annotation manually in Illustrator to ensure the readibility.
 
 
 #### 2nd - A Horizontal Bar Chart Comparing the Frequency of Reasons for Food Recalls
