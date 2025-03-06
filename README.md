@@ -1,5 +1,5 @@
 # Unspecified Labeling led the Most FDA Food Recalls in 2024
-Trump's recent decision to slash funding to research institutions and health systems has sent shockwaves through academia. In response, many universities have been forced to halt new admissions, leaving students and faculty grappling with the fallout. However, the financial struggles for Humanities, Arts, and Social Science phD students date back much earlier, **long before this funding cut**. 
+Food recall has never been this violent with labeling issues leading Class I food recalls, data from the US Food and Drug Administration reveals. **long before this funding cut**. 
 
 Here is the shortcut to my [article:](https://yatingw24.github.io/food_recall)
 
